@@ -1,5 +1,125 @@
 .App {
   text-align: center;
+  background-color:gainsboro;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
 }
+
+.board{
+  text-align: center;
+  background-color:gainsboro;
+
+  height:100vh;
+  padding:10px;
+  
+}
+
+.board-content {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  gap:20px;
+
+}
+
+h1{
+  font-size:50px;
+  font-weight: 300;
+}
+
+button{
+  height:40px;
+  width:200px;
+  font-size:25px;
+  cursor:pointer;
+}
+
+.buttons {
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:100px;
+}
+
+.logo{
+  height:200px;
+  width:200px;
+  margin-top:50px;
+  border-radius: 50%;
+  border: 2px solid goldenrod;
+  display:flex;
+}
+
+
+.image {
+  position:absolute;
+  left:100px;
+ 
+}
+
+.game{
+  background-color: gainsboro;
+  height:100vh;
+  width:2000px;
+  padding:10px;
+}
+
+
+.header{
+  display:flex;
+  gap:30px;
+  align-items:center;
+  margin:20px;
+}
+
+.target{
+  height:100px;
+  width:100px;
+  border-radius:50%;
+}
+.target-div{
+  text-align:center;
+}
+
+#list {
+  list-style: none;
+  font-size:20px;
+}
+#list li {
+  border: 1px solid black;
+  background-color:ghostwhite;
+  margin-left:50px;
+  padding: 8px 16px;
+  width:120px;
+  cursor:pointer;
+}
+
+#list li:hover {
+  transform:scale(1.1)
+}
+
+#list .question{
+  background-color: azure;
+  cursor:alias;
+}
+
+#list .question:hover{
+  transform:scale(1)
+}
+
+
+
+
+
+
+
+
+
 
 
