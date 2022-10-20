@@ -1,6 +1,9 @@
 # Where's Waldo
 This is an assignment of the Odin Project to learn how to use Firebase.
 
+You can play the game here.
+https://satoshi-sh.github.io/wheres_waldo/
+
 # Credit 
 
 logo: https://favpng.com/png_view/chihiro-ghibli-museum-catbus-studio-ghibli-my-neighbor-totoro-png/0rNhZQKs
